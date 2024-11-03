@@ -1,9 +1,13 @@
-img {
-    display: block; 
-    margin-bottom: 6px;
+.photo {
+    min-height: 22.2em;
     width: 33em;
-    min-height: 10em;
-    background-color: aliceblue;
     max-width: 100%;
+
+    background-color: aliceblue;
+    margin-bottom: 6px;
 }
 
+.photo img {
+    width: 100%;
+    max-width: 100%;
+}
