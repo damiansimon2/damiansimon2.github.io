@@ -2,6 +2,8 @@ img {
     display: block; 
     margin-bottom: 6px;
     width: 33em;
+    min-height: 10em;
+    background-color: aliceblue;
     max-width: 100%;
 }
 
