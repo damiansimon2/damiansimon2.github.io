@@ -2,6 +2,10 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
+pre {
+    font-size: min(2.6vw, 1em);
+}
+
 h1 {
     margin-bottom: 0em;
 }
