@@ -8,19 +8,22 @@ pre {
     font-size: 0.8rem;
 }
 
-@media (max-width: 600px) {
-  html {
-    font-size: 1.2rem;
-  }
-  pre {
-      font-size: 2.8vw
-  }
-}
-
 #links {
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 #links a {
     color: #2525d8; 
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 1.2rem;
+    }
+    pre {
+        font-size: 2.8vw
+    }
+    #links {
+        line-height: 1.6;
+    }
 }
